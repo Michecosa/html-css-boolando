@@ -5,6 +5,11 @@
   font-family: Outfit;
 }
 
+:root {
+  --orange-nav: #ff6900;
+  --dark-bg: #1a1a1a;
+}
+
 html, body {
   height: 100%;
 }
@@ -45,7 +50,7 @@ header .d-flex{
 /* Header */
 
 header {
-  background-color: orange;
+  background-color: var(--orange-nav);
   box-shadow:0px 1px 10px rgba(0, 0, 0, 0.305);
 }
 
@@ -87,7 +92,7 @@ main {
 
 footer {
   height: 8rem;
-  background-color: rgb(35, 34, 38);
+  background-color: var(--dark-bg);
 }
 
 footer > * > div.left-container {
