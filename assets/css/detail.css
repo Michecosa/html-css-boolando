@@ -89,5 +89,7 @@
 }
 
 .add-to-bag .fa-heart{
+  padding-block: 1rem;
+  border: 1px solid black;
   position: static;
 }
