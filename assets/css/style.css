@@ -43,6 +43,7 @@ header .d-flex{
 header {
   height: 6%;
   background-color: orange;
+  box-shadow:0px 1px 10px rgba(0, 0, 0, 0.305);
 }
 
 header > nav {
@@ -95,6 +96,12 @@ footer > * > div {
 
 
 /* Position */
+
+header {
+  position: sticky;
+  top:0;
+  z-index: 1;
+}
 
 .card > div:first-child {
   position: relative;
