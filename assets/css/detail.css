@@ -125,3 +125,7 @@
 summary {
   list-style: none;
 }
+
+.d-summary img {
+  height: 1rem;
+}
