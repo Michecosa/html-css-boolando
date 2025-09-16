@@ -167,6 +167,14 @@ footer {
   color: white;
 }
 
+footer > * > div {
+  line-height: 1.8rem;
+}
+
 .left-container ul {
   list-style: none;
+}
+
+.right-container .socials {
+  font-size: 1.4rem;
 }
