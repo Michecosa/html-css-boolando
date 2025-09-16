@@ -75,3 +75,11 @@
   cursor: pointer;
   border: 1px solid black;
 }
+
+.size select {
+  width: 80%;
+  height: 3rem;
+  padding-inline:1rem;
+  font-size:1.2rem;
+  color: gray;
+}
