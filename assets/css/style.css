@@ -85,6 +85,9 @@ footer {
   background-color: rgb(35, 34, 38);
 }
 
+footer > * > div.left-container {
+  width: 40%;
+}
 
 
 /* Position */
@@ -154,4 +157,12 @@ s {
 .article {
   font-size: 1rem;
   font-weight: 600;
+}
+
+footer {
+  color: white;
+}
+
+.left-container ul {
+  list-style: none;
 }
