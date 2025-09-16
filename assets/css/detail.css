@@ -5,5 +5,36 @@
 }
 
 .card .product-info {
+  width: 80%;
+}
+
+.product-info {
+
+  .brand {
+    font-size: 1.5rem;
+  } 
+
+  .article {
+    font-size: 2.5rem;
+  }
+
+  .price {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    color: black;
+  }
+
+  .IVA {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: gray;
+  }
+}
+
+.discount-ad {
   width: 60%;
+  border: 1px solid gray;
+  padding: 2rem;
+  margin-block: 2rem;
 }
