@@ -1,0 +1,9 @@
+/* Main */
+
+.card {
+  width: 100%;
+}
+
+.card .product-info {
+  width: 60%;
+}
