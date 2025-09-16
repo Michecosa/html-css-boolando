@@ -213,3 +213,8 @@ footer > * > div {
   cursor: zoom-in;
   opacity: 1;
 }
+
+.card .fa-heart:hover {
+  cursor: pointer;
+  color: red;
+}
