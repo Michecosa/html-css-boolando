@@ -200,3 +200,7 @@ footer > * > div {
   left: 0;
   opacity: 0;
 }
+
+.card > div:first-child:hover .second-img {
+  opacity: 1;
+}
