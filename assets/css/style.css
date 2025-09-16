@@ -63,9 +63,10 @@ main {
 
 .card .fa-heart {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  color: red;
+  top: 6%;
+  left: 90%;
   font-size: 1.5rem;
   cursor: pointer;
+
+  transform: translate(-50%, -50%);
 }
