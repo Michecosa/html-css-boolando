@@ -133,6 +133,7 @@
 summary {
   list-style: none;
   margin-top:1.2rem;
+  margin-bottom: 0.3rem;
 }
 
 summary:hover {
