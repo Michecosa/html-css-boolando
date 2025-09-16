@@ -72,14 +72,6 @@
   color: gray;
 }
 
-
-/* Hover */
-
-.card-preview:hover {
-  cursor: pointer;
-  border: 1px solid black;
-}
-
 .size select {
   width: 100%;
   height: 3rem;
@@ -107,20 +99,37 @@
   text-align: center;
 }
 
-.add-to-bag-btn:hover {
-  cursor: pointer;
-}
-
 .add-to-bag .fa-heart{
   padding-block: 1rem;
   border: 1px solid black;
   position: static;
 }
 
+/* Hover */
+
+.card-preview:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+
+.add-to-bag-btn:hover {
+  cursor: pointer;
+}
+
 .add-to-bag .fa-heart:hover {
   color:black; 
   /* To avoid using the color: red
   inherited*/
+}
+
+.add-to-bag .fa-heart:active {
+  color: red;
+}
+
+summary:hover {
+  cursor: pointer;
+  color:rgb(98, 60, 210);
 }
 
 
@@ -134,11 +143,6 @@ summary {
   list-style: none;
   margin-top:1.2rem;
   margin-bottom: 0.3rem;
-}
-
-summary:hover {
-  cursor: pointer;
-  color:rgb(98, 60, 210);
 }
 
 details p {
