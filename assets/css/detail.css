@@ -85,9 +85,19 @@
 }
 
 .add-to-bag {
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 80%;
   color:black;
+  height: 3.64rem;
+}
+
+.add-to-bag-btn {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+
+  padding-top: 1rem;
+  padding-inline: 1rem;
 }
 
 .add-to-bag .fa-heart{
