@@ -8,6 +8,8 @@ html, body {
   height: 100%;
 }
 
+/* Utilities */
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -25,8 +27,25 @@ html, body {
   align-items: center;
 }
 
+
+/* Header */
+
 header > div {
   height: 5%;
   min-height: 3rem;
   background-color: orange;
+}
+
+
+/* Main */
+
+main {
+  margin-block: 3rem;
+}
+
+
+/* Cards */
+
+.card .card-img {
+  max-width: 20rem;
 }
