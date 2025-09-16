@@ -129,6 +129,7 @@ header {
 
 nav {
   color: white;
+  font-weight: bold;
 }
 
 .discount {
@@ -180,6 +181,10 @@ footer > * > div {
 
 .left-container ul {
   list-style: none;
+}
+
+.left-container h4 {
+  font-size: 1.2rem;
 }
 
 .right-container .socials {
