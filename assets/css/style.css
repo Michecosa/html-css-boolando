@@ -78,6 +78,15 @@ main {
 }
 
 
+/* Footer */
+
+footer {
+  height: 8rem;
+  background-color: rgb(35, 34, 38);
+}
+
+
+
 /* Position */
 
 .card > div:first-child {
