@@ -20,6 +20,10 @@ html, body {
   gap:2%;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .justify-content-sb {
   justify-content: space-between;
 }
@@ -47,8 +51,13 @@ main {
 
 /* Cards */
 
+.card {
+  width: 30%;
+  margin-bottom: 4rem;
+}
+
 .card .card-img {
-  max-width: 20rem;
+  width: 100%;
   display: block;
   width: 100%;
   height: auto;
