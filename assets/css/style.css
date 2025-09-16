@@ -190,3 +190,10 @@ footer > * > div {
 .right-container .socials {
   font-size: 1.4rem;
 }
+
+
+/* Hover */ 
+
+.card .hide {
+  display:none;
+}
