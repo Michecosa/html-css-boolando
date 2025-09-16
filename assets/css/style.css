@@ -33,6 +33,10 @@ header .d-flex{
   justify-content: space-between;
 }
 
+.justify-content-c {
+  justify-content: center;
+}
+
 .align-items-c {
   align-items: center;
 }
@@ -113,12 +117,15 @@ header {
 .card .fa-heart {
   position: absolute;
   top: 6%;
-  left: 90%;
+  right: 0;
   font-size: 1.5rem;
   cursor: pointer;
 
-  transform: translate(-50%, -50%);
   z-index: 1;
+
+  background-color: white;
+  padding-inline: 1.8rem;
+  padding-block: 1rem;
 }
 
 .discount-tenable {
