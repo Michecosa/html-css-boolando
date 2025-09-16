@@ -1,3 +1,9 @@
+/* Utilities */
+
+main .container {
+  max-width: 80rem;
+}
+
 /* Main */
 
 .card {
@@ -42,7 +48,7 @@
 }
 
 .discount-ad {
-  width: 60%;
+  width: 80%;
   border: 1px solid gray;
   padding: 2rem;
   margin-block: 2rem;
