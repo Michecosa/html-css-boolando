@@ -21,6 +21,10 @@ html, body {
   gap:2%;
 }
 
+header .d-flex{
+  gap: 1rem;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
@@ -99,6 +103,10 @@ main {
 
 
 /* Text */
+
+nav {
+  color: white;
+}
 
 .discount {
   font-weight: bold;
