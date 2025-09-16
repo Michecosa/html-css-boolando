@@ -37,4 +37,12 @@
   border: 1px solid gray;
   padding: 2rem;
   margin-block: 2rem;
+  line-height: 1.4rem;
+}
+
+
+.discount-code {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 0.8rem;
 }
