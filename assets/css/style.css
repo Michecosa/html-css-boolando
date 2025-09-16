@@ -110,3 +110,12 @@ s {
   color: gray;
   font-weight: normal;
 }
+
+.brand {
+  font-size: 0.9rem;
+}
+
+.article {
+  font-size: 1rem;
+  font-weight: 600;
+}
