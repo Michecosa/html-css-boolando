@@ -68,3 +68,10 @@
   color: gray;
 }
 
+
+/* Hover */
+
+.card-preview:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
