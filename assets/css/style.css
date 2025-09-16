@@ -100,3 +100,13 @@ main {
   background-color: #079500;
   color: white;
 }
+
+.price {
+  color:red;
+  font-weight: bold;
+}
+
+s {
+  color: gray;
+  font-weight: normal;
+}
