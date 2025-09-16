@@ -70,3 +70,14 @@ main {
 
   transform: translate(-50%, -50%);
 }
+
+.discount-tenable {
+  position: absolute;
+  bottom: 6%;
+  left: 3%;
+}
+
+.discount {
+  font-weight: bold;
+  color: #e60000;
+}
