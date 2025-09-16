@@ -145,25 +145,17 @@ nav {
   font-weight: bold;
 }
 
-.discount {
+.discount-tenable > * {
   font-weight: bold;
+  font-size: 0.8rem;
   
-  padding-inline: 1rem;
+  padding-inline: 0.6rem;
   padding-block: 0.3rem;
-
-  background-color: #e60000;
   color: white;
 }
 
-.tenable {
-  font-weight: bold;
-
-  padding-inline: 1rem;
-  padding-block: 0.3rem;
-
-  background-color: #079500;
-  color: white;
-}
+.discount { background-color: #e60000; }
+.tenable { background-color: #079500; }
 
 .price {
   color:red;
