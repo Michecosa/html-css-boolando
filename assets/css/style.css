@@ -48,4 +48,24 @@ main {
 
 .card .card-img {
   max-width: 20rem;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Position */
+
+.card > div:first-child {
+  position: relative;
+  display: inline-block;
+}
+
+.card .fa-heart {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: red;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
