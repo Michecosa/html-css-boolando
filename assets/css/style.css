@@ -205,5 +205,6 @@ footer > * > div {
 }
 
 .card > div:first-child:hover .second-img {
+  cursor: zoom-in;
   opacity: 1;
 }
