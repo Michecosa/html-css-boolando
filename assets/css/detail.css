@@ -4,6 +4,10 @@
   max-width: 80rem;
 }
 
+.align-items-fs {
+  align-items: flex-start;
+}
+
 /* Main */
 
 .card {
@@ -122,10 +126,20 @@
 
 /* Details/Summary */
 
-summary {
-  list-style: none;
+.container-summary {
+  margin-top:1.5rem;
 }
 
-.d-summary img {
-  height: 1rem;
+summary {
+  list-style: none;
+  margin-top:1.2rem;
+}
+
+summary:hover {
+  cursor: pointer;
+  color:rgb(98, 60, 210);
+}
+
+details p {
+  margin-left: 1rem;
 }

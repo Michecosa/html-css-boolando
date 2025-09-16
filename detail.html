@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
+    <!-- font-family: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- font-family: Outfit -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/detail.css" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/detail.css">
-
-
-  <title>Details</title>
-</head>
-<body>
-
-  <header>
+    <title>Details</title>
+  </head>
+  <body>
+    <header>
       <nav class="container d-flex justify-content-sb align-items-c wrap">
         <div class="category d-flex">
           <div>Donna</div>
@@ -31,123 +37,152 @@
         </div>
         <a href="./index.html">
           <div class="logo">
-            <img src="./assets/img/boolean-logo.png" alt="logo image">
+            <img src="./assets/img/boolean-logo.png" alt="logo image" />
           </div>
         </a>
         <div class="utilites d-flex">
           <i class="fa-regular fa-user"></i>
-          <i class="fa-regular fa-heart d-flex align-items-c justify-content-c"></i>
+          <i
+            class="fa-regular fa-heart d-flex align-items-c justify-content-c"
+          ></i>
           <i class="fa-solid fa-bag-shopping"></i>
         </div>
       </nav>
-  </header>
+    </header>
 
-  <main>
-    <div class="container d-flex">
-      <div class="preview">
-        <div>
-          <img class="card-preview" src="./assets/img/6.webp" alt="article 6 first image">
-        </div>
-        <div>
-          <img class="card-preview" src="./assets/img/6b.webp" alt="article 6 second image">
-        </div>
-      </div>
-
-      <div class="card d-flex">
-        <div>
-          <i class="fa-solid fa-heart d-flex align-items-c justify-content-c"></i>
-          <img class="card-img first-img" src="./assets/img/6.webp" alt="article 6">
-          <img class="card-img second-img" src="./assets/img/6b.webp" alt="article 6 hover">
-        </div>
-
-
-        <div class="product-info">
+    <main>
+      <div class="container d-flex">
+        <div class="preview">
           <div>
-            <div class="brand">Esprit</div>
-            <div class="article">MAGLIONE - BLACK</div>
-            <div class="price">da 29,99 &euro;<!-- <s>29,99 &euro;</s> --> <span class="IVA">IVA inclusa</span></div>
+            <img
+              class="card-preview"
+              src="./assets/img/6.webp"
+              alt="article 6 first image"
+            />
           </div>
-          <div class="discount-ad">
-            <div class="discount-now">Risparmia <strong>20&percnt;</strong> su questo e altri articoli selezionati su ordini a partire da 25,00&euro;.</div>
-            <div><br>Inserisci il codice nella fase finale dell'ordine:</div>
-            <div class="discount-code">MICHELA2025</div>
-            <div class="discover">Scopri</div>
+          <div>
+            <img
+              class="card-preview"
+              src="./assets/img/6b.webp"
+              alt="article 6 second image"
+            />
+          </div>
+        </div>
+
+        <div class="card d-flex">
+          <div>
+            <i
+              class="fa-solid fa-heart d-flex align-items-c justify-content-c"
+            ></i>
+            <img
+              class="card-img first-img"
+              src="./assets/img/6.webp"
+              alt="article 6"
+            />
+            <img
+              class="card-img second-img"
+              src="./assets/img/6b.webp"
+              alt="article 6 hover"
+            />
           </div>
 
-          <div class="size">
-            <select name="size" id="size" required>
-              <option value="" disabled selected>Scegli una taglia</option>
-              <option value="S">S</option>
-              <option value="M">M</option>
-              <option value="L">L</option>
-              <option value="XL">XL</option>
-            </select>
-          </div>
-
-          <div class="add-to-bag d-flex justify-content-sb align-items-c">
-            <div class="add-to-bag-btn">Aggiungi al carrello</div>
-            <div><i class="fa-regular fa-heart d-flex justify-content-c align-items-c"></i></div>
-          </div>
-
-          <div class="summary-container">
-            <div class="d-summary d-flex align-items-c justify-content-sb">
-              <div>
-                <details>
-                  <summary><h3>Composizione e istruzioni di lavaggio</h3></summary>
-                  <p><b>Composizione</b>: 97&percnt; poliestere, 3&percnt; elastan</p>
-                  <p><b>Materiale</b>: Satin</p>
-                  <p><b>Avvertenze</b>: Lavaggio a macchina a 30 gradi, non candeggiare</p>
-                </details>
-              </div>
-              <div>
-                <img src="./assets/img/chevron-down.svg" alt="chevron-down image">
-                <img src="./assets/img/angle-up.svg" alt="angle-up image">
+          <div class="product-info">
+            <div>
+              <div class="brand">Esprit</div>
+              <div class="article">MAGLIONE - BLACK</div>
+              <div class="price">
+                da 29,99 &euro;<!-- <s>29,99 &euro;</s> -->
+                <span class="IVA">IVA inclusa</span>
               </div>
             </div>
-            <div class="d-summary d-flex align-items-c justify-content-sb">
+            <div class="discount-ad">
+              <div class="discount-now">
+                Risparmia <strong>20&percnt;</strong> su questo e altri articoli
+                selezionati su ordini a partire da 25,00&euro;.
+              </div>
               <div>
-                <details>
+                <br />Inserisci il codice nella fase finale dell'ordine:
+              </div>
+              <div class="discount-code">MICHELA2025</div>
+              <div class="discover">Scopri</div>
+            </div>
+
+            <div class="size">
+              <select name="size" id="size" required>
+                <option value="" disabled selected>Scegli una taglia</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+            </div>
+
+            <div class="add-to-bag d-flex justify-content-sb align-items-c">
+              <div class="add-to-bag-btn">Aggiungi al carrello</div>
+              <div>
+                <i
+                  class="fa-regular fa-heart d-flex justify-content-c align-items-c"
+                ></i>
+              </div>
+            </div>
+
+
+            <div class="container-summary">
+              <div class="d-summary">
+                <details open>
+                  <summary><h3>Composizione e istruzioni di lavaggio</h3></summary>
+                  <p>
+                    <b>Composizione</b>: 97&percnt; poliestere, 3&percnt; elastan
+                  </p>
+                  <p><b>Materiale</b>: Satin</p>
+                  <p>
+                    <b>Avvertenze</b>: Lavaggio a macchina a 30 gradi, non
+                    candeggiare
+                  </p>
+                </details>
+              </div>
+              <div class="d-summary">
+                <details open>
                   <summary><h3>Taglia e fit</h3></summary>
-                  <p><b>Altezza del modello</b>: La persona è alta 177cm e veste una taglia 42</p>
+                  <p>
+                    <b>Altezza del modello</b>: La persona è alta 177cm e veste
+                    una taglia 42
+                  </p>
                   <p><b>Vestibilit&agrave;</b>: Ampia</p>
                   <p><b>Linea</b>: Svasata</p>
                   <p><b>Lunghezza</b>: Lungo</p>
-                  <p><b>Livello di elasticit&agrave;</b>: Elasticit&agrave; media</p>
+                  <p>
+                    <b>Livello di elasticit&agrave;</b>: Elasticit&agrave; media
+                  </p>
                 </details>
-              </div>
-              <div>
-                <img src="./assets/img/chevron-down.svg" alt="chevron-down image">
-                <img src="./assets/img/angle-up.svg" alt="angle-up image">
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-  
-  <footer>
-    <div class="container d-flex justify-content-sb">
-      <div class="left-container">
-        <h4>Boolando s.r.l.</h4>
-        <ul class="d-flex">
-          <li>Informazioni legati</li>
-          <li>Informatica sulla privacy</li>
-          <li>Diritto di accesso</li>
-        </ul>
-      </div>
-      <div class="right-container">
-        <h4>Trovaci anche su</h4>
-        <div class="socials">
-          <i class="fa-brands fa-square-twitter"></i>
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-square-instagram"></i>
-          <i class="fa-brands fa-square-pinterest"></i>
-          <i class="fa-brands fa-square-youtube"></i>
+    </main>
+
+    <footer>
+      <div class="container d-flex justify-content-sb">
+        <div class="left-container">
+          <h4>Boolando s.r.l.</h4>
+          <ul class="d-flex">
+            <li>Informazioni legati</li>
+            <li>Informatica sulla privacy</li>
+            <li>Diritto di accesso</li>
+          </ul>
+        </div>
+        <div class="right-container">
+          <h4>Trovaci anche su</h4>
+          <div class="socials">
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-pinterest"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  
-</body>
+    </footer>
+  </body>
 </html>
